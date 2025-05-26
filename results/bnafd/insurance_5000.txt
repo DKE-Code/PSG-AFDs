@@ -1,0 +1,27 @@
+AntiTheft, MakeModel, Age, HomeBase, SeniorTrain, RiskAversion;GoodStudent;0.205007
+GoodStudent, SeniorTrain, RiskAversion;Age;0.448642
+HomeBase, MakeModel, VehicleYear;SocioEcon;0.912444
+HomeBase, AntiTheft, SocioEcon, SeniorTrain;RiskAversion;0.705923
+CarValue, Airbag, Antilock, MakeModel;VehicleYear;0.765636
+Accident, RuggedAuto, ThisCarCost;ThisCarDam;1.045247
+Airbag, Cushioning, MakeModel;RuggedAuto;0.927418
+ThisCarDam, DrivQuality, OtherCarCost;Accident;1.040749
+CarValue, Antilock, RuggedAuto, VehicleYear;MakeModel;1.076708
+Accident, DrivingSkill, RiskAversion;DrivQuality;1.139787
+MedCost, MakeModel, Antilock, CarValue, Airbag;Mileage;0.138025
+MakeModel, VehicleYear;Antilock;0.506599
+DrivHist, DrivQuality, RiskAversion;DrivingSkill;1.105614
+RiskAversion, Age;SeniorTrain;0.395456
+CarValue, Theft, ThisCarDam, PropCost;ThisCarCost;0.751343
+MakeModel, Mileage, ThisCarCost, CarValue, ThisCarDam;Theft;0.254183
+Mileage, MakeModel, VehicleYear;CarValue;0.963952
+SocioEcon, RiskAversion;HomeBase;0.847515
+SocioEcon, RiskAversion;AntiTheft;0.605530
+OtherCarCost, ThisCarCost;PropCost;0.583145
+Accident, PropCost, ThisCarCost;OtherCarCost;0.523099
+SocioEcon;OtherCar;0.097167
+DrivingSkill, ILiCost, Accident, DrivQuality, RiskAversion;MedCost;0.426116
+Airbag, RuggedAuto;Cushioning;0.903977
+RuggedAuto, Cushioning, VehicleYear;Airbag;0.748581
+MedCost, OtherCarCost, RuggedAuto, ThisCarDam, DrivQuality;ILiCost;0.385286
+DrivingSkill, RiskAversion;DrivHist;0.677558

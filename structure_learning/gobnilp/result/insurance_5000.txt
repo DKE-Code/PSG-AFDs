@@ -1,0 +1,57 @@
+GOBNILP version 1.6.3 [GitHash: None ]
+Solving the BN structure learning problem using SCIP.
+
+SCIP version 3.2.1 [precision: 8 byte] [memory: block] [mode: optimized] [LP solver: SoPlex 2.2.1] [GitHash: c7c6c02]
+Copyright (c) 2002-2016 Konrad-Zuse-Zentrum fuer Informationstechnik Berlin (ZIB)
+
+Reading parameter file <gobnilp.set>.
+File name:		data/insurance_5000.dat
+Problem name:		insurance_5000
+presolving (2 rounds: 2 fast, 2 medium, 2 exhaustive):
+ 0 deleted vars, 0 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 23916 cliques
+presolved problem has 2950 variables (2950 bin, 0 int, 0 impl, 0 cont) and 1183 constraints
+
+time | Best Network Found So Far |   Best Network Possible   |  gap   
+ 0.9s|       -6.752990e+04       |       -6.042659e+04       |  11.76%
+ 1.9s|       -6.749093e+04       |       -6.557637e+04       |   2.92%
+ 2.9s|       -6.746659e+04       |       -6.634794e+04       |   1.69%
+ 2.9s|       -6.736060e+04       |       -6.634794e+04       |   1.53%
+ 3.2s|       -6.710684e+04       |       -6.649661e+04       |   0.92%
+ 3.2s|       -6.710684e+04       |       -6.649661e+04       |   0.92%
+
+SCIP Status        : solving was interrupted [gap limit reached]
+Solving Time (sec) : 3.18
+Solving Nodes      : 1
+Primal Bound       : -6.71068352199375e+04 (5 solutions)
+Dual Bound         : -6.64966056294315e+04
+Gap                : 0.92 %
+GoodStudent<-Age,SocioEcon, -512.082909
+Age<-SocioEcon,SeniorTrain, -3611.492698
+SocioEcon<-VehicleYear, -4826.130934
+RiskAversion<-Age,SeniorTrain, -4949.394267
+VehicleYear<- -3268.107597
+ThisCarDam<-RuggedAuto,Accident, -678.692813
+RuggedAuto<-VehicleYear,MakeModel, -3167.207063
+Accident<-DrivQuality,MedCost,ILiCost, -2791.457659
+MakeModel<-SocioEcon, -4693.022143
+DrivQuality<-RiskAversion,DrivingSkill, -1192.668937
+Mileage<- -5941.135933
+Antilock<-VehicleYear,MakeModel, -816.999302
+DrivingSkill<-Age,SeniorTrain, -4523.964848
+SeniorTrain<-SocioEcon, -1838.870603
+ThisCarCost<-ThisCarDam,Theft,CarValue, -307.356030
+Theft<-AntiTheft, -36.401194
+CarValue<-VehicleYear,MakeModel,Mileage, -3154.207720
+HomeBase<-SocioEcon,RiskAversion, -3636.045957
+AntiTheft<-SocioEcon,RiskAversion, -1290.635865
+PropCost<-ThisCarCost,OtherCarCost, -2861.942468
+OtherCarCost<-Accident, -1058.216527
+OtherCar<-SocioEcon, -2734.029169
+MedCost<-VehicleYear,DrivQuality, -1374.650308
+Cushioning<-RuggedAuto,Airbag, -3657.255799
+Airbag<-VehicleYear,MakeModel, -1074.196031
+ILiCost<-DrivQuality, -779.519659
+DrivHist<-RiskAversion,DrivingSkill, -2331.150785
+BN score is -67106.835220
+

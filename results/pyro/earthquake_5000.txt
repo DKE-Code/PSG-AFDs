@@ -1,0 +1,6 @@
+Alarm;Burglary;
+JohnCalls;Alarm;
+JohnCalls;Burglary;
+Burglary, Earthquake;Alarm;
+MaryCalls;Burglary;
+MaryCalls;Alarm;

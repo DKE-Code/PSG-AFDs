@@ -1,0 +1,35 @@
+GOBNILP version 1.6.3 [GitHash: None ]
+Solving the BN structure learning problem using SCIP.
+
+SCIP version 3.2.1 [precision: 8 byte] [memory: block] [mode: optimized] [LP solver: SoPlex 2.2.1] [GitHash: c7c6c02]
+Copyright (c) 2002-2016 Konrad-Zuse-Zentrum fuer Informationstechnik Berlin (ZIB)
+
+Reading parameter file <gobnilp.set>.
+File name:		data/asia_5000.dat
+Problem name:		asia_5000
+presolving (3 rounds: 3 fast, 2 medium, 2 exhaustive):
+ 1 deleted vars, 1 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 1021 cliques
+presolved problem has 186 variables (186 bin, 0 int, 0 impl, 0 cont) and 129 constraints
+
+time | Best Network Found So Far |   Best Network Possible   |  gap   
+ 0.1s|       -1.141278e+04       |       -1.039128e+04       |   9.83%
+ 0.1s|       -1.134963e+04       |       -1.126459e+04       |   0.75%
+ 0.1s|       -1.134963e+04       |       -1.126459e+04       |   0.75%
+
+SCIP Status        : solving was interrupted [gap limit reached]
+Solving Time (sec) : 0.07
+Solving Nodes      : 1
+Primal Bound       : -1.13496254281973e+04 (2 solutions)
+Dual Bound         : -1.12645931804335e+04
+Gap                : 0.75 %
+asia<- -307.223856
+tub<-lung,either, -22.612284
+smoke<-lung, -3352.011995
+lung<- -1103.248424
+bronc<-smoke, -3215.805490
+either<-lung, -283.341904
+xray<-either, -1073.146630
+dysp<-bronc,either, -1992.234844
+BN score is -11349.625428
+

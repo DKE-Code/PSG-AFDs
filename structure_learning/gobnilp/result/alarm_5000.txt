@@ -1,0 +1,68 @@
+GOBNILP version 1.6.3 [GitHash: None ]
+Solving the BN structure learning problem using SCIP.
+
+SCIP version 3.2.1 [precision: 8 byte] [memory: block] [mode: optimized] [LP solver: SoPlex 2.2.1] [GitHash: c7c6c02]
+Copyright (c) 2002-2016 Konrad-Zuse-Zentrum fuer Informationstechnik Berlin (ZIB)
+
+Reading parameter file <gobnilp.set>.
+File name:		data/alarm_5000.dat
+Problem name:		alarm_5000
+presolving (3 rounds: 3 fast, 3 medium, 3 exhaustive):
+ 1 deleted vars, 10 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 9 changed sides, 0 changed coefficients
+ 0 implications, 33323 cliques
+presolved problem has 5234 variables (5234 bin, 0 int, 0 impl, 0 cont) and 1763 constraints
+
+time | Best Network Found So Far |   Best Network Possible   |  gap   
+ 1.4s|       -5.439598e+04       |       -4.321985e+04       |  25.86%
+ 1.6s|       -5.382863e+04       |       -4.897396e+04       |   9.91%
+ 2.7s|       -5.376833e+04       |       -5.016265e+04       |   7.19%
+ 3.1s|       -5.371858e+04       |       -5.038124e+04       |   6.62%
+ 3.5s|       -5.369651e+04       |       -5.051698e+04       |   6.29%
+ 6.5s|       -5.364069e+04       |       -5.197506e+04       |   3.20%
+12.5s|       -5.364069e+04       |       -5.310998e+04       |   1.00%
+
+SCIP Status        : solving was interrupted [gap limit reached]
+Solving Time (sec) : 12.50
+Solving Nodes      : 1
+Primal Bound       : -5.36406862145604e+04 (6 solutions)
+Dual Bound         : -5.31099783761358e+04
+Gap                : 1.00 %
+HISTORY<-LVFAILURE, -340.933299
+CVP<-LVEDVOLUME, -1494.692374
+PCWP<-LVEDVOLUME, -1137.479025
+HYPOVOLEMIA<- -2516.170063
+LVEDVOLUME<-HYPOVOLEMIA,LVFAILURE, -1978.268011
+LVFAILURE<-HYPOVOLEMIA,STROKEVOLUME, -491.979083
+STROKEVOLUME<-HYPOVOLEMIA, -2708.944861
+ERRLOWOUTPUT<- -1011.730686
+HRBP<-ERRLOWOUTPUT,HR, -769.109508
+HREKG<-HR, -2080.139250
+ERRCAUTER<-HREKG,HR, -407.422434
+HRSAT<-ERRCAUTER,HR, -814.582936
+INSUFFANESTH<- -1576.516648
+ANAPHYLAXIS<-TPR, -255.761479
+TPR<- -5464.773558
+EXPCO2<-VENTLUNG,ARTCO2, -785.840435
+KINKEDTUBE<- -970.388351
+MINVOL<-INTUBATION,VENTLUNG, -1048.928842
+FIO2<- -949.399581
+PVSAT<-FIO2,VENTALV, -461.466166
+SAO2<-PVSAT,SHUNT, -531.609987
+PAP<-PULMEMBOLUS, -1980.633944
+PULMEMBOLUS<- -302.715823
+SHUNT<-PULMEMBOLUS,INTUBATION, -1057.956381
+INTUBATION<-VENTTUBE,VENTLUNG, -1253.062738
+PRESS<-KINKEDTUBE,INTUBATION,VENTTUBE, -4359.350806
+DISCONNECT<- -1521.796014
+MINVOLSET<-VENTMACH, -451.708731
+VENTMACH<-DISCONNECT,VENTTUBE, -934.826895
+VENTTUBE<-DISCONNECT, -3020.779798
+VENTLUNG<-KINKEDTUBE,VENTTUBE, -2348.861130
+VENTALV<-INTUBATION,VENTLUNG, -915.598771
+ARTCO2<-VENTALV, -863.574430
+CATECHOL<-TPR,VENTALV, -937.622281
+HR<-STROKEVOLUME,CATECHOL,CO, -914.821687
+CO<-STROKEVOLUME,CATECHOL, -2439.573328
+BP<-TPR,CO, -2541.666879
+BN score is -53640.686215
+

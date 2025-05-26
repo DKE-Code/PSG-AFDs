@@ -1,0 +1,3 @@
+Xray;Cancer;
+Dyspnoea;Cancer;
+Smoker;Cancer;

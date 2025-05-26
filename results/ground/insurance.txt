@@ -1,0 +1,18 @@
+SocioEcon,Age;GoodStudent
+SocioEcon,RiskAversion;VehicleYear
+Accident,RuggedAuto;ThisCarDam
+Antilock, Mileage, DrivQuality;Accident
+DrivingSkill, RiskAversion;DrivQuality
+MakeModel, VehicleYear;Antilock
+Age, RiskAversion;SeniorTrain
+ThisCarDam, CarValue, Theft;ThisCarCost
+AntiTheft, HomeBase, CarValue;Theft
+MakeModel, VehicleYear, Mileage;CarValue
+RiskAversion, SocioEcon ;AntiTheft
+OtherCarCost, ThisCarCost;PropCost
+Accident, RuggedAuto;OtherCarCost
+SocioEcon;OtherCar
+Accident, Age, Cushioning;MedCost
+MakeModel, VehicleYear;Airbag
+Accident;ILiCost
+DrivingSkill, RiskAversion;DrivHist

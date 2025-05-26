@@ -1,0 +1,58 @@
+GOBNILP version 1.6.3 [GitHash: None ]
+Solving the BN structure learning problem using SCIP.
+
+SCIP version 3.2.1 [precision: 8 byte] [memory: block] [mode: optimized] [LP solver: SoPlex 2.2.1] [GitHash: c7c6c02]
+Copyright (c) 2002-2016 Konrad-Zuse-Zentrum fuer Informationstechnik Berlin (ZIB)
+
+Reading parameter file <gobnilp.set>.
+File name:		data/water_5000.dat
+Problem name:		water_5000
+presolving (3 rounds: 3 fast, 2 medium, 2 exhaustive):
+ 6 deleted vars, 6 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 4601 cliques
+presolved problem has 749 variables (749 bin, 0 int, 0 impl, 0 cont) and 441 constraints
+
+time | Best Network Found So Far |   Best Network Possible   |  gap   
+ 0.3s|       -6.477010e+04       |       -6.058771e+04       |   6.90%
+ 0.3s|       -6.477010e+04       |       -6.432469e+04       |   0.69%
+
+SCIP Status        : solving was interrupted [gap limit reached]
+Solving Time (sec) : 0.33
+Solving Nodes      : 1
+Primal Bound       : -6.47701001837849e+04 (1 solutions)
+Dual Bound         : -6.43246868216004e+04
+Gap                : 0.69 %
+C_NI_12_00<- -6944.792816
+CKNI_12_00<-CKND_12_15, -5444.523661
+CBODD_12_00<- 0.000000
+CKND_12_00<- 0.000000
+CNOD_12_00<- 0.000000
+CBODN_12_00<- 0.000000
+CKNN_12_00<- 0.000000
+CNON_12_00<- 0.000000
+C_NI_12_15<-C_NI_12_00, -5297.716658
+CKNI_12_15<-CKNI_12_00, -4324.305484
+CBODD_12_15<-C_NI_12_00,CKNI_12_00, -1173.205102
+CKND_12_15<-CKNN_12_15,CKNN_12_30,CKNN_12_45, -993.570232
+CNOD_12_15<- -3309.735832
+CBODN_12_15<- -161.881409
+CKNN_12_15<- -2844.365204
+CNON_12_15<-CNOD_12_45, -915.454415
+C_NI_12_30<-C_NI_12_15, -5316.536712
+CKNI_12_30<-CKNI_12_15, -4469.293195
+CBODD_12_30<-C_NI_12_15,CKNI_12_15,CBODD_12_15, -1244.135520
+CKND_12_30<-CKND_12_15,CKNN_12_30,CKNN_12_45, -932.496765
+CNOD_12_30<-CNOD_12_15, -2060.998940
+CBODN_12_30<-CBODD_12_15,CBODN_12_15, -266.867141
+CKNN_12_30<-CKNN_12_15, -2082.624379
+CNON_12_30<-CKNN_12_15,CNON_12_15, -724.731921
+C_NI_12_45<-C_NI_12_30, -5383.449569
+CKNI_12_45<-CKNI_12_30, -4566.506788
+CBODD_12_45<-CKNI_12_30,CBODD_12_30, -1205.275749
+CKND_12_45<-CKND_12_30, -955.441516
+CNOD_12_45<-CNOD_12_30, -1367.138617
+CBODN_12_45<-CBODD_12_15,CBODN_12_30, -419.548513
+CKNN_12_45<-CKNN_12_30, -1702.269043
+CNON_12_45<-CKNN_12_30,CNON_12_30, -663.235004
+BN score is -64770.100184
+

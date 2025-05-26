@@ -1,0 +1,7 @@
+lung, either;tub;0.079199
+lung, bronc;smoke;0.093309
+either, tub;lung;0.310717
+smoke, either, dysp;bronc;0.411936
+lung, tub;either;0.351976
+either;xray;0.223839
+either, bronc;dysp;0.414889

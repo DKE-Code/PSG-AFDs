@@ -1,0 +1,5 @@
+asia; tub
+smoke; lung
+lung, tub; either
+either; xray
+bronc, either; dysp

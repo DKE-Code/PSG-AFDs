@@ -1,0 +1,66 @@
+GOBNILP version 1.6.3 [GitHash: None ]
+Solving the BN structure learning problem using SCIP.
+
+SCIP version 3.2.1 [precision: 8 byte] [memory: block] [mode: optimized] [LP solver: SoPlex 2.2.1] [GitHash: c7c6c02]
+Copyright (c) 2002-2016 Konrad-Zuse-Zentrum fuer Informationstechnik Berlin (ZIB)
+
+Reading parameter file <gobnilp.set>.
+File name:		data/alarm_5000_0.05.dat
+Problem name:		alarm_5000_0.05
+presolving (3 rounds: 3 fast, 2 medium, 2 exhaustive):
+ 3 deleted vars, 3 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 19092 cliques
+presolved problem has 2770 variables (2770 bin, 0 int, 0 impl, 0 cont) and 1271 constraints
+
+time | Best Network Found So Far |   Best Network Possible   |  gap   
+ 0.5s|       -8.892960e+04       |       -8.301153e+04       |   7.13%
+ 0.6s|       -8.869996e+04       |       -8.622605e+04       |   2.87%
+ 0.6s|       -8.854542e+04       |       -8.726886e+04       |   1.46%
+ 1.2s|       -8.854179e+04       |       -8.746750e+04       |   1.23%
+ 2.0s|       -8.854179e+04       |       -8.770277e+04       |   0.96%
+
+SCIP Status        : solving was interrupted [gap limit reached]
+Solving Time (sec) : 2.03
+Solving Nodes      : 1
+Primal Bound       : -8.85417882642864e+04 (4 solutions)
+Dual Bound         : -8.77027654689609e+04
+Gap                : 0.96 %
+0<-5, -1345.789179
+1<-2,4, -2525.474156
+2<-3,4, -2477.140355
+3<-4,6, -1756.585399
+4<-0,5, -3899.848687
+5<- -1572.008531
+6<-4,5, -2996.626953
+7<-8, -1360.679758
+8<-34,35, -2391.396594
+9<-10,11,34, -2079.619517
+10<-11,34, -1400.358439
+11<-8,34, -2858.823141
+12<- -1979.676940
+13<- -1083.566980
+14<- -5468.797939
+15<-30,32, -2370.279373
+16<-25, -1527.866168
+17<-29,33, -3643.194357
+18<-20,32, -1530.423922
+19<-17,31, -1836.319086
+20<-19,23,31, -1821.729200
+21<-22,23, -2557.502194
+22<- -1106.045175
+23<-24,31, -1783.801448
+24<-30,31, -1811.035381
+25<-24,29, -5264.943832
+26<-29, -1510.321825
+27<-28,29, -1789.003023
+28<-26,29, -2390.789651
+29<-33, -4215.173544
+30<-17,29, -2683.903151
+31<-17,30, -2608.466084
+32<-19,31, -2010.502065
+33<-14, -1848.686160
+34<-14,33, -2746.108393
+35<-6,34, -2765.062354
+36<-14,35, -3524.239311
+BN score is -88541.788264
+

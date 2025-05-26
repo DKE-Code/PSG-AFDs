@@ -1,0 +1,31 @@
+GOBNILP version 1.6.3 [GitHash: None ]
+Solving the BN structure learning problem using SCIP.
+
+SCIP version 3.2.1 [precision: 8 byte] [memory: block] [mode: optimized] [LP solver: SoPlex 2.2.1] [GitHash: c7c6c02]
+Copyright (c) 2002-2016 Konrad-Zuse-Zentrum fuer Informationstechnik Berlin (ZIB)
+
+Reading parameter file <gobnilp.set>.
+File name:		data/cancer_5000.dat
+Problem name:		cancer_5000
+presolving (3 rounds: 3 fast, 2 medium, 2 exhaustive):
+ 2 deleted vars, 2 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 98 cliques
+presolved problem has 31 variables (31 bin, 0 int, 0 impl, 0 cont) and 20 constraints
+
+time | Best Network Found So Far |   Best Network Possible   |  gap   
+ 0.0s|       -1.048790e+04       |       -1.048790e+04       |   0.00%
+ 0.0s|       -1.048790e+04       |       -1.048790e+04       |   0.00%
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 0.04
+Solving Nodes      : 1
+Primal Bound       : -1.04879046727812e+04 (1 solutions)
+Dual Bound         : -1.04879046727812e+04
+Gap                : 0.00 %
+Pollution<- -1585.505055
+Smoker<- -3037.324934
+Cancer<-Pollution,Smoker, -280.818124
+Xray<-Cancer, -2543.733107
+Dyspnoea<-Cancer, -3040.523453
+BN score is -10487.904673
+

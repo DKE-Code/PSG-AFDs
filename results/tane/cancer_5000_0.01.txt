@@ -1,0 +1,24 @@
+
+======================================================================
+Parameters (approximate dependencies):
+No. of tuples            == 5001
+No. of attributes        == 5
+Stop level               == 5
+Data                     == ./data/cancer_5000_0.01.dat
+Percentage of all tuples == 0.20 %
+==> G3 threshold         == 1000 max. rows removed
+======================================================================
+
+-> 1   (539 / 0.11)
+-> 3   (108 / 0.02)
+
+======================================================================
+total_no_of_candidates == 9
+prune_key              == 0
+prune_key_sub          == 0
+prune_key_second       == 0
+prune_rhs              == 2
+prune_rhs_sub          == 0
+prune_rhs_second       == 1
+======================================================================
+

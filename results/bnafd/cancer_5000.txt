@@ -1,0 +1,5 @@
+Smoker, Cancer;Pollution;0.006716
+Cancer, Pollution;Smoker;0.014089
+Smoker, Dyspnoea, Xray, Pollution;Cancer;0.038030
+Cancer;Xray;0.014588
+Cancer;Dyspnoea;0.005949

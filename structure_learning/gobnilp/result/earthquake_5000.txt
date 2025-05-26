@@ -1,0 +1,31 @@
+GOBNILP version 1.6.3 [GitHash: None ]
+Solving the BN structure learning problem using SCIP.
+
+SCIP version 3.2.1 [precision: 8 byte] [memory: block] [mode: optimized] [LP solver: SoPlex 2.2.1] [GitHash: c7c6c02]
+Copyright (c) 2002-2016 Konrad-Zuse-Zentrum fuer Informationstechnik Berlin (ZIB)
+
+Reading parameter file <gobnilp.set>.
+File name:		data/earthquake_5000.dat
+Problem name:		earthquake_5000
+presolving (2 rounds: 2 fast, 2 medium, 2 exhaustive):
+ 0 deleted vars, 0 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 296 cliques
+presolved problem has 79 variables (79 bin, 0 int, 0 impl, 0 cont) and 60 constraints
+
+time | Best Network Found So Far |   Best Network Possible   |  gap   
+ 0.1s|       -2.205805e+03       |       -1.993420e+03       |  10.65%
+ 0.2s|       -2.205805e+03       |       -2.202784e+03       |   0.14%
+
+SCIP Status        : solving was interrupted [gap limit reached]
+Solving Time (sec) : 0.19
+Solving Nodes      : 1
+Primal Bound       : -2.20580465337283e+03 (2 solutions)
+Dual Bound         : -2.20278434045560e+03
+Gap                : 0.14 %
+Burglary<- -307.223856
+Earthquake<- -439.145767
+Alarm<-Burglary,Earthquake, -100.870999
+JohnCalls<-Alarm, -1080.028317
+MaryCalls<-Alarm, -278.535714
+BN score is -2205.804653
+

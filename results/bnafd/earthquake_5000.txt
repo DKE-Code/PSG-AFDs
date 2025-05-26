@@ -1,0 +1,5 @@
+Earthquake, Alarm;Burglary;0.079629
+Alarm, Burglary;Earthquake;0.031746
+JohnCalls, Earthquake, MaryCalls, Burglary;Alarm;0.123274
+Alarm;JohnCalls;0.047538
+Alarm;MaryCalls;0.065658
